@@ -19,9 +19,11 @@
    <p>create the instances of alter_bg() class to load the deeplabv3+ trained model to  segment the image of the required object and remove the back ground</p>
    <p>to load the model use the function load_pascalvoc_model() this function will take the deeplabv3+ trained model in h5 file format</p>
    <p>Now change the back ground of the image accordingly by using change_bg_img() This will take the following parameter</p>
+    <ul>
     <li>Foreground image whose background need to be change</li>
     <li>Back ground image use to set the back ground of the foreground image</li>
     <li>The new image with the change back ground</li>
+    </ul>
   </ul>
  <p>Put the above proces in for loop to apply it for n different images 
     
