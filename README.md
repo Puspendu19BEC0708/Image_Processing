@@ -12,7 +12,7 @@
 <p>To repeat the above process for 5 different images put the above process in the for loop</p>
 <p>To fit all the thereat object into the Baggage  boundary  i apply an if condition and rotate and resize the image accoringly</p>
 
-<u><h3>Import pixellib</h3><u>
+<u><h3>Import pixellib</h3></u>
   <ul>
   <li>To segmented the image from the frame and place the segmented image in the  background according to our need </li>
    <p>From the pixellib import the class alter_bg()
