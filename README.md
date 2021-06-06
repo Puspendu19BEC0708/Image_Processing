@@ -15,10 +15,10 @@
 <u><h3>Import pixellib</h3><u>
   <ul>
   <li>To segmented the image from the frame and place the segmented image in the  background according to our need </li>
-   <p>From the pixellib import the class alter_bg()</p>
-   <p>create the instances of alter_bg() class to load the deeplabv3+ trained model to  segment the image of the required object and remove the back ground</p>
-   <p>to load the model use the function load_pascalvoc_model() this function will take the deeplabv3+ trained model in h5 file format</p>
-   <p>Now change the back ground of the image accordingly by using change_bg_img() This will take the following parameter</p>
+   <p>From the pixellib import the class alter_bg()
+     create the instances of alter_bg() class to load the deeplabv3+ trained model to  segment the image of the required object and remove the back ground
+     to load the model use the function load_pascalvoc_model() this function will take the deeplabv3+ trained model in h5 file format
+     Now change the back ground of the image accordingly by using change_bg_img() This will take the following parameter</p>
     <ul>
     <li>Foreground image whose background need to be change</li>
     <li>Back ground image use to set the back ground of the foreground image</li>
