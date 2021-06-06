@@ -25,7 +25,23 @@
     <li>The new image with the change back ground</li>
     </ul>
   </ul>
- <p>Put the above proces in for loop to apply it for n different images 
+ <p>Put the above proces in for loop to apply it for n different images </p>
+ <h3>To show an output images</h3>
+ <ul>
+ <li>Import matplotlib.pyplot</li>
+  <p>To plot the image</p>
+ <li>Import matplotlib.image </li>
+  
+  <p>to read the images</p>
+  <p>read the images using imread()</p>
+  <p>Show the images using plt.imshow(img) and store it in imgplot
+  <p>use plt.show() to display the images </p>
+  </ul>
+  
+  
+  
+  
+ 
     
 
   
